@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 import xml.etree.ElementTree
-import numpy
 import codecs
 import json
 
