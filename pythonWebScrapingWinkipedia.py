@@ -16,11 +16,17 @@ for i in data:
     for link in s1 :
      if(link.get('title').find("exist")!=-1):
          array.append(txt[0].string)
+         print(txt[0].string)
      else: 
          array.append(txt[0].string+"   this page does not exist")
+         print(txt[0].string+"   this page does not exist")
 f.close()
+
 
 f = open("writeToFile.txt", "w")
 for word in array:
     f.write(word+'\n')
 f.close()
+
+
+
